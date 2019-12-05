@@ -2183,7 +2183,7 @@ RectTransform:
   - {fileID: 669421292}
   - {fileID: 956105489}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2202,8 +2202,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a2383f35f796b146af7df9a5bf71b39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monster: {fileID: 1417282033075514457, guid: 40f28e04a64a3d049ba9b9954ac45113, type: 3}
-  monster1: {fileID: 2230634752240435838, guid: bcb6a297ab7fd274c9b52e5242516ad8,
+  monster: {fileID: 6327780457440364379, guid: 805ab1d90ea183a41b463452f6bd4152, type: 3}
+  monster1: {fileID: 2214720348981440127, guid: 9d0ab0a43c535314e8d16351ce168152,
     type: 3}
 --- !u!1 &1200890600
 GameObject:
@@ -2974,7 +2974,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1566481804
 PrefabInstance:
@@ -4636,7 +4636,7 @@ PrefabInstance:
     - target: {fileID: 4296050721631859977, guid: f77f5559a667ff947bba9b213fbcc568,
         type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4296050721631859977, guid: f77f5559a667ff947bba9b213fbcc568,
         type: 3}

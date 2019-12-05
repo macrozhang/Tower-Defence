@@ -5,8 +5,8 @@ using UnityEngine;
 public class map3_monsterComing : MonoBehaviour
 {
     public GameObject monster;
-    private float time = 10f;
-    private int many = 3;
+    private float time = 5f;
+    private int many = 6;
 
     // Start is called before the first frame update
     void Start()
@@ -22,9 +22,9 @@ public class map3_monsterComing : MonoBehaviour
         {
             for (int y = 0; y < 3; y++)
             {
-                createMon(-5.902166f, 2.53f, 18.21754f);
+                createMon(-5.76f, 2.79f, 17.9f);
             }
-            time = 10f;
+            time = 5f;
             many -= 1;
         }
     }

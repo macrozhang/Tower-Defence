@@ -4464,12 +4464,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2794d939fbc1504c87ebd4cd200ed37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monster: {fileID: 1033291302538508677, guid: 25a6dd69282cc6344b94edb26fe8bd1e, type: 3}
-  monster1: {fileID: 4055127278802646222, guid: 98ffd002644aad740b62b3b5d0f84840,
+  monster: {fileID: 1991538669143587345, guid: ed0b1a13925708e4e922f04fe3126648, type: 3}
+  monster1: {fileID: 781850108655444257, guid: e55acaddd4109c747a8904da79b1854d, type: 3}
+  monster2: {fileID: 1483724871472987149, guid: f066ff3f76b5ad840a8002c39580e1a2,
     type: 3}
-  monster2: {fileID: 8741009915959611170, guid: d2eaa58ca31f7e14bbc6a2dd56d29e59,
-    type: 3}
-  monster3: {fileID: 3409530500131997570, guid: 10f6307f5b3cec4439473a9cb170a0e5,
+  monster3: {fileID: 2787529336687681629, guid: eb2ab7fa407f2e84a92419d703dfe7b5,
     type: 3}
 --- !u!1001 &1696910706
 PrefabInstance:

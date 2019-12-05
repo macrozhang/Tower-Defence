@@ -1904,8 +1904,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 141ed7da549a618488db771762a1be03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monster: {fileID: 1189932739869929952, guid: 8188b521a702f64428dbf68ebf12943d, type: 3}
-  monster1: {fileID: 730521837347695112, guid: 802859ca9ac71bc40a2f37dd02f25e8a, type: 3}
+  monster: {fileID: 556359995883123446, guid: c5164f37b2597ea48b454a1dcb12451f, type: 3}
+  monster1: {fileID: 5401546571039693861, guid: dcb6027f50f9e3a4bb499efb426c996d,
+    type: 3}
 --- !u!1001 &1687097050
 PrefabInstance:
   m_ObjectHideFlags: 0

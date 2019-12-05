@@ -6,8 +6,8 @@ public class map8_monsterComing : MonoBehaviour
 {
     public GameObject monster;
     public GameObject monster1;
-    private float time = 10f;
-    private int many = 3;
+    private float time = 5f;
+    private int many = 6;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +26,7 @@ public class map8_monsterComing : MonoBehaviour
                 createMon(-18.7f, 2.53f, 14.5f, monster);
                 createMon(-2.9f, 2.53f, -17.4f, monster1);
             }
-            time = 10f;
+            time = 5f;
             many -= 1;
         }
     }

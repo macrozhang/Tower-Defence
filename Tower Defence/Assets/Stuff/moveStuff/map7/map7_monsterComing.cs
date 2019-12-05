@@ -5,8 +5,8 @@ using UnityEngine;
 public class map7_monsterComing : MonoBehaviour
 {
     public GameObject monster;
-    private float time = 10f;
-    private int many = 3;
+    private float time = 5f;
+    private int many = 6;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class map7_monsterComing : MonoBehaviour
                 //waitTime(0.1f);
                 createMon(-6.1f, 2.53f, 17.8f);
             }
-            time = 10f;
+            time = 5f;
             many -= 1;
         }
     }
