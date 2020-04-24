@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class Save : MonoBehaviour
 {
-    
+    string save;
+    bool check = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,9 +21,9 @@ public class Save : MonoBehaviour
 
     //查看有没有存档
     public bool IfSave() {
-        bool check = false;
+        
         check = PlayerPrefs.HasKey("Gameload");
-        return IfSave;
+        return check;
     }
 
     //存档，s为当前关卡数
@@ -36,8 +37,8 @@ public class Save : MonoBehaviour
 
     //读取存档地图
     public string GameLoad() {
-        string save;
-        if (IfSave) {
+        
+        if (check) {
             save = PlayerPrefs.GetString("Gameload");
         }
         return save;

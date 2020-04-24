@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Game_map_8.unity
+- path: Assets/Scenes/Introduction_menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

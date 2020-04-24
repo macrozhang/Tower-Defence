@@ -342,75 +342,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113912573}
   m_CullTransparentMesh: 0
---- !u!1001 &236522396
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1808270027867498944, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_Name
-      value: Black hole
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808270027867498948, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808270027867498948, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808270027867498948, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808270027867498948, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808270027867498948, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808270027867498948, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808270027867498948, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808270027867498948, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808270027867498948, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808270027867498948, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1808270027867498948, guid: 63f6648066de935498b49b6e8e468d6a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 63f6648066de935498b49b6e8e468d6a, type: 3}
 --- !u!1 &273118254
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,7 +354,7 @@ GameObject:
   - component: {fileID: 273118257}
   - component: {fileID: 273118256}
   m_Layer: 5
-  m_Name: Counter
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -479,7 +410,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Counter
+  m_Text: Enemy
 --- !u!222 &273118257
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -706,7 +637,7 @@ GameObject:
   - component: {fileID: 439557178}
   - component: {fileID: 439557177}
   m_Layer: 5
-  m_Name: Level
+  m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -762,7 +693,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level
+  m_Text: HP
 --- !u!222 &439557178
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -828,10 +759,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -848,36 +779,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 483841198}
   m_CullTransparentMesh: 0
---- !u!1 &524757416
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 236522396}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 524757417}
-  m_Layer: 0
-  m_Name: Black hole (Missing Prefab)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &524757417
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 236522396}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524757416}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &541767851
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,7 +791,7 @@ GameObject:
   - component: {fileID: 541767854}
   - component: {fileID: 541767853}
   m_Layer: 5
-  m_Name: PrintLevel
+  m_Name: PrintHP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1077,7 +978,7 @@ PrefabInstance:
     - target: {fileID: 7565022107018321882, guid: ad11b7cca212e374ea13cc0552cf6831,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7565022107018321882, guid: ad11b7cca212e374ea13cc0552cf6831,
         type: 3}
@@ -1747,11 +1648,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 4
+    m_MaxSize: 45
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1779,8 +1680,8 @@ GameObject:
   - component: {fileID: 1656726409}
   - component: {fileID: 1656726408}
   - component: {fileID: 1656726407}
-  - component: {fileID: 1656726411}
   - component: {fileID: 1656726412}
+  - component: {fileID: 1656726411}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: TowerBase
@@ -1888,10 +1789,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1656726406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b4c5968db8fdff42a1ed0aa36ee5f4d, type: 3}
+  m_Script: {fileID: 11500000, guid: 8fbe5fb971a882e4dbceefa96351e400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Back: {fileID: 1734199449}
+  HP: {fileID: 541767853}
+  Enemy: {fileID: 2127302342}
+  Gold: {fileID: 1586957666}
+  Exit: {fileID: 1734199449}
+  lostgame: {fileID: 0}
 --- !u!114 &1656726412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1946,6 +1851,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 23095230487246808, guid: 471dd51e6c263a441a56df4385c2baad,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 566db1c831b0dc4479465fc999feb11a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 471dd51e6c263a441a56df4385c2baad, type: 3}
 --- !u!1 &1734199448
@@ -2194,7 +2104,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 566db1c831b0dc4479465fc999feb11a, type: 2}
+      objectReference: {fileID: 2100000, guid: a3d1db2193df45c4085f5b4cab7fd943, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 471dd51e6c263a441a56df4385c2baad, type: 3}
 --- !u!1 &1948165068
@@ -2247,7 +2157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.0521983, g: 0.92941177, b: 0.9529412, a: 0.45490196}
+  m_Color: {r: 0.03529412, g: 0.13725491, b: 0.14117648, a: 0.45490196}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2464,6 +2374,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 1101559455959776, guid: ad04deff4af0fa34bb5e98962d058a6d, type: 3}
+      propertyPath: m_TagString
+      value: TowerBase
+      objectReference: {fileID: 0}
     - target: {fileID: 1107166329943424, guid: ad04deff4af0fa34bb5e98962d058a6d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -2595,6 +2509,10 @@ PrefabInstance:
     - target: {fileID: 1307791072500104, guid: ad04deff4af0fa34bb5e98962d058a6d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1307791072500104, guid: ad04deff4af0fa34bb5e98962d058a6d, type: 3}
+      propertyPath: m_TagString
+      value: TowerBase
       objectReference: {fileID: 0}
     - target: {fileID: 1311940572987530, guid: ad04deff4af0fa34bb5e98962d058a6d, type: 3}
       propertyPath: m_IsActive
@@ -2791,6 +2709,10 @@ PrefabInstance:
     - target: {fileID: 1568730339709664, guid: ad04deff4af0fa34bb5e98962d058a6d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568730339709664, guid: ad04deff4af0fa34bb5e98962d058a6d, type: 3}
+      propertyPath: m_TagString
+      value: TowerBase
       objectReference: {fileID: 0}
     - target: {fileID: 1609935455585070, guid: ad04deff4af0fa34bb5e98962d058a6d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4098,6 +4020,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23095230487246808, guid: 471dd51e6c263a441a56df4385c2baad,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 566db1c831b0dc4479465fc999feb11a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 471dd51e6c263a441a56df4385c2baad, type: 3}
 --- !u!1 &2127302340
@@ -4112,7 +4039,7 @@ GameObject:
   - component: {fileID: 2127302343}
   - component: {fileID: 2127302342}
   m_Layer: 5
-  m_Name: PrintCounter
+  m_Name: PrintEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4296,7 +4223,7 @@ PrefabInstance:
     - target: {fileID: 9009038556692490687, guid: ebd87de2d1ff78540b2c7a3c5d63dbe0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 9009038556692490687, guid: ebd87de2d1ff78540b2c7a3c5d63dbe0,
         type: 3}

@@ -195,6 +195,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4118738071766148}
   - component: {fileID: 4168757690113880481}
+  - component: {fileID: 3024690990508979768}
+  - component: {fileID: 4045616227219755602}
   m_Layer: 0
   m_Name: Tower_2
   m_TagString: Untagged
@@ -211,7 +213,7 @@ Transform:
   m_GameObject: {fileID: 1566642932893774}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -29.439606, y: 32.86698, z: -46.324825}
-  m_LocalScale: {x: 2.5, y: 1, z: 2.5}
+  m_LocalScale: {x: 0.7, y: 0.5, z: 0.7}
   m_Children:
   - {fileID: 4078988432749798}
   - {fileID: 4956223409356434}
@@ -230,6 +232,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2cc471c2935c0469e41046a8485cac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 30
+  AttackAbility: 0
+  BuildPrice: 4
+  TowerName: tower2
+  UpgradePrice: 4
+  ReturnPrice: 2
+--- !u!65 &3024690990508979768
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566642932893774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5, y: 4.5, z: 4.5}
+  m_Center: {x: -0.018684102, y: 0.22186089, z: -0.10810624}
+--- !u!114 &4045616227219755602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566642932893774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e000252ca25e9428695e0fea0b67c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: []
+  att: 2
 --- !u!1 &1609976337485202
 GameObject:
   m_ObjectHideFlags: 0

@@ -832,7 +832,8 @@ MonoBehaviour:
     deducted 1 HP (total HP is 10 points), that is, if escape too much the game will
     fails. You can get gold coins from killing monsters,it can be used to buy towers
     or upgrade them.\r\nYou can choose your own map or monster type.\r\nDivision of
-    work:\r\nChen Xingchen:\r\nJiang Xingkun:\r\nZuo Ronglin:\r\nZhang Yinghong:"
+    work:\r\nChen Xingchen:\t\rEnemy Move Function \nJiang Xingkun:\r\t\tTower Attack
+    Function \nZuo Ronglin:\t\t\rMap & Model\nZhang Yinghong:\tTower Building Function"
 --- !u!222 &1834406670
 CanvasRenderer:
   m_ObjectHideFlags: 0

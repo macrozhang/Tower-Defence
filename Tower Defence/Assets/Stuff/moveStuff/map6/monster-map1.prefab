@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 1991538668519997836}
   - component: {fileID: 1991538668519997827}
   - component: {fileID: 1991538668519997837}
+  - component: {fileID: -5931454727230655697}
   m_Layer: 0
   m_Name: monster-map1
   m_TagString: Enemy
@@ -318,7 +319,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -330,6 +331,22 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-5931454727230655697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991538669143587345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3f40fbba83a5414dad77c1a205caf30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  way: 2
+  x: 3
+  z: 2
+  Hp: 30
 --- !u!1 &1991538669143587347
 GameObject:
   m_ObjectHideFlags: 0

@@ -541,6 +541,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 23095230487246808, guid: 471dd51e6c263a441a56df4385c2baad,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 566db1c831b0dc4479465fc999feb11a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 471dd51e6c263a441a56df4385c2baad, type: 3}
 --- !u!1001 &236766125
@@ -550,6 +555,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1504683443229674550, guid: ad11b7cca212e374ea13cc0552cf6831,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.7750854
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504683443229674550, guid: ad11b7cca212e374ea13cc0552cf6831,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 77.399994
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504683443770725645, guid: ad11b7cca212e374ea13cc0552cf6831,
+        type: 3}
+      propertyPath: towers.Array.data[2]
+      value: 
+      objectReference: {fileID: 1457336099062630, guid: cdda0368d0d4e174194163ddbfb98461,
+        type: 3}
+    - target: {fileID: 1504683443770725645, guid: ad11b7cca212e374ea13cc0552cf6831,
+        type: 3}
+      propertyPath: towers.Array.data[1]
+      value: 
+      objectReference: {fileID: 7685878884071201159, guid: c049f0ace5cec29459f0adef1f847334,
+        type: 3}
+    - target: {fileID: 7565022106166954093, guid: ad11b7cca212e374ea13cc0552cf6831,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5d9ae93d536e0594b853283032a603ae,
+        type: 3}
     - target: {fileID: 7565022107018321882, guid: ad11b7cca212e374ea13cc0552cf6831,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -839,6 +872,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 21
       objectReference: {fileID: 0}
+    - target: {fileID: 23095230487246808, guid: 471dd51e6c263a441a56df4385c2baad,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 566db1c831b0dc4479465fc999feb11a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 471dd51e6c263a441a56df4385c2baad, type: 3}
 --- !u!1001 &578717016
@@ -1065,11 +1103,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 4
+    m_MaxSize: 45
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1142,10 +1180,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1297,7 +1335,7 @@ GameObject:
   - component: {fileID: 926883433}
   - component: {fileID: 926883432}
   m_Layer: 5
-  m_Name: PrintCounter
+  m_Name: PrintEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1501,7 +1539,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4401381852039306, guid: 471dd51e6c263a441a56df4385c2baad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.694146
+      value: 6.57
       objectReference: {fileID: 0}
     - target: {fileID: 4401381852039306, guid: 471dd51e6c263a441a56df4385c2baad, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1509,7 +1547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4401381852039306, guid: 471dd51e6c263a441a56df4385c2baad, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.3530006
+      value: 1.83
       objectReference: {fileID: 0}
     - target: {fileID: 4401381852039306, guid: 471dd51e6c263a441a56df4385c2baad, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1638,7 +1676,7 @@ GameObject:
   - component: {fileID: 1193511382}
   - component: {fileID: 1193511381}
   m_Layer: 5
-  m_Name: Level
+  m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1694,7 +1732,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level
+  m_Text: HP
 --- !u!222 &1193511382
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3880,7 +3918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.0521983, g: 0.92941177, b: 0.9529412, a: 0.45490196}
+  m_Color: {r: 0.03529412, g: 0.13725491, b: 0.14117648, a: 0.45490196}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4044,7 +4082,7 @@ GameObject:
   - component: {fileID: 1605473865}
   - component: {fileID: 1605473864}
   m_Layer: 5
-  m_Name: Counter
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4100,7 +4138,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Counter
+  m_Text: Enemy
 --- !u!222 &1605473865
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4339,8 +4377,8 @@ GameObject:
   - component: {fileID: 1673842497}
   - component: {fileID: 1673842496}
   - component: {fileID: 1673842495}
-  - component: {fileID: 1673842494}
   - component: {fileID: 1673842499}
+  - component: {fileID: 1673842494}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: TowerBase
@@ -4357,10 +4395,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1673842493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b4c5968db8fdff42a1ed0aa36ee5f4d, type: 3}
+  m_Script: {fileID: 11500000, guid: c1b2e4cd873a02444839a27c2aa42cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Back: {fileID: 1456520487}
+  HP: {fileID: 1722607298}
+  Enemy: {fileID: 926883432}
+  Gold: {fileID: 711859251}
+  Exit: {fileID: 1456520487}
+  lostgame: {fileID: 0}
 --- !u!114 &1673842495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4513,6 +4555,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 23095230487246808, guid: 471dd51e6c263a441a56df4385c2baad,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 566db1c831b0dc4479465fc999feb11a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 471dd51e6c263a441a56df4385c2baad, type: 3}
 --- !u!1 &1722607296
@@ -4527,7 +4574,7 @@ GameObject:
   - component: {fileID: 1722607299}
   - component: {fileID: 1722607298}
   m_Layer: 5
-  m_Name: PrintLevel
+  m_Name: PrintHP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4635,6 +4682,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 23095230487246808, guid: 471dd51e6c263a441a56df4385c2baad,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 566db1c831b0dc4479465fc999feb11a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 471dd51e6c263a441a56df4385c2baad, type: 3}
 --- !u!1 &1775928138

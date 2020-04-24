@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 22948480}
   - component: {fileID: 22948479}
   m_Layer: 5
-  m_Name: Counter
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Counter
+  m_Text: Enemy
 --- !u!222 &22948480
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -875,10 +875,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1866,7 +1866,7 @@ GameObject:
   - component: {fileID: 1292242201}
   - component: {fileID: 1292242200}
   m_Layer: 5
-  m_Name: Level
+  m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2021,11 +2021,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 4
+    m_MaxSize: 45
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2053,7 +2053,7 @@ GameObject:
   - component: {fileID: 1653054353}
   - component: {fileID: 1653054352}
   m_Layer: 5
-  m_Name: PrintCounter
+  m_Name: PrintEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2130,8 +2130,8 @@ GameObject:
   - component: {fileID: 1656726409}
   - component: {fileID: 1656726408}
   - component: {fileID: 1656726407}
-  - component: {fileID: 1656726411}
   - component: {fileID: 1656726412}
+  - component: {fileID: 1656726411}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: TowerBase
@@ -2239,10 +2239,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1656726406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b4c5968db8fdff42a1ed0aa36ee5f4d, type: 3}
+  m_Script: {fileID: 11500000, guid: 8fe6e2ef11b03fe43a00cbf3b4f75ce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Back: {fileID: 1734199449}
+  HP: {fileID: 1855276931}
+  Enemy: {fileID: 1653054352}
+  Gold: {fileID: 550602494}
+  Exit: {fileID: 1734199449}
+  lostgame: {fileID: 0}
 --- !u!114 &1656726412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2666,7 +2670,7 @@ GameObject:
   - component: {fileID: 1855276932}
   - component: {fileID: 1855276931}
   m_Layer: 5
-  m_Name: PrintLevel
+  m_Name: PrintHP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2969,7 +2973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.0521983, g: 0.92941177, b: 0.9529412, a: 0.45490196}
+  m_Color: {r: 0.03529412, g: 0.13725491, b: 0.14117648, a: 0.45490196}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
